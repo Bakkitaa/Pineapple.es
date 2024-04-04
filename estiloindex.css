@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand img {
+  margin-right: 10px;
+}
+
+.title-bar {
+  background-color: #8b8b8b; /* Color de la barra */
+  padding: 5px 10px; /* Ajuste el relleno según sea necesario */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+.title {
+  font-size: 24px; /* Tamaño de fuente */
+  color: #fff; /* Color del texto */
+}
+
+.navlinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 5;
+}
+
+.navlinks li {
+  display: inline;
+}
+
+.navlinks li a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.navlinks li a:hover {
+  background-color: #434343;
+  color: #fff;
+}
