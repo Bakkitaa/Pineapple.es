@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pineapple.es</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://cdn-icons-png.freepik.com/256/0/747.png?ga=GA1.1.1145081165.1712637112&">
+</head>
+<body>
+  <header>
+    <nav class="navbar-expand">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="https://cdn-icons-png.freepik.com/256/0/747.png?ga=GA1.1.1145081165.1712637112&" alt="Pinepple" width="30" height="30" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Pineapple.es</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="iphone.html">Iphones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Airpods.html">Airpods</a>
+            </li>
+            <li>
+              <a class="nav-link" href="MacBooks.html">Macbooks</a>
+            </li>
+            <li>
+              <a class="nav-link" href="AppleWatch.html">AppleWatch</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+        </a>
+      </div>
+    </nav>
+      <div class="container-icon">
+        <div class="container-cart-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+          </svg>
+          <div class="count-products">
+            <span id="contador-productos">0
+            </span>
+          </div>
+        </div>
+       
+        <div class="container-cart-products hidden-cart">
+          <div class="row-product">
+            <div class="cart-product">
+              <div class="info-cart-product">
+                  <span class="cantidad-producto-carrito">1</span>
+                    <p class="titulo-producto-carrito">Iphone 15 Pro Max</p>
+                    <span class="precio-producto-carrito">$1.699.990</span>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg> 
+            </div>
+          </div>
+          <div class="cart-total">
+            <h3>Total:</h3>
+            <span class="total-pagar">$1.699.990</span>
+          </div>
+        </div>
+      </div>
+  </header>
+  <div class="container-items">
+    <div class="item">
+        <figure>
+          <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTTthl0NZhrJt3xBZnZPhMrNSW5DgUHmhYYAuHlFkpoPyQhfbZEZhmw41UNmnVFxydOALC7KtfaOqNOMEMn6tnpFcZEzSqDJY7wD4wfpIwls5g4-2iU1lpsXrrQVgw1FBHAf9n1BGo&usqp=CAc" alt="producto">
+        </figure>
+        <div class="info-product">
+          <h2>Macbook Pro</h2>
+          <p class="price">$4.559.990</p>
+          <button class="btn-add-cart">Añadir al carrito</button>
+        </div>
+      </div>
+    <div class="item">
+      <figure>
+        <img src="data:image/jpeg;base64,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tqo8Lf6LWxN4zm89HeVJU+FxtOsRru+0/PqGwdCbOiNeocKBzjjL/vyZN6Bw9AKmYcFBzlcX/dG9Z1bSpVFNtSSKYomtGq0ADiAsFUiKKIiICIiAiIgIiICIiAiIgIiICofIAq1E1uFSOO8m1W3JsWkkXNyLhwyQZz5jzK0SsFmETj/UDsz8S98VT+0Dsz8SqMy68usXxVP7QOzPxL3xXP69vZn4kGUAqwAFg+Kp/Xjsz8St0uBSR62rKzfOLzeMnM7fSQSa9CwThcvrWdkfiXgwqbgmaOaM/EgkEWD4tn9c3sz8SeLZ/Xjsz3oM4lUErE8Wz+vb2Z+JUuwyf147M/EgyJAsWRiodg05/wBQOzPxK3HgE4cHfKdnBuZt/cgszAbLhWoow82Y10h5PojndsUvBgMYOtIXSHbvsm/lH73UoxoAsAABsAFgoqHp8HcfrH6o+zH+7j+wUnTUjIxZjQOXhPOdpV5EBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREH//Z" alt="producto">
+      </figure>
+      <div class="info-product">
+        <h2>Macbook air</h2>
+        <p class="price">$1.549.990</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="data:image/jpeg;base64,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" alt="producto">
+      </figure>
+      <div class="info-product">
+        <h2>Macbook mini</h2>
+        <p class="price">$899.990</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+  <script src="index.js"></script>
+</body>
+</html>

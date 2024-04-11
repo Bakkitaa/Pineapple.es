@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pineapple.es</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://cdn-icons-png.freepik.com/256/0/747.png?ga=GA1.1.1145081165.1712637112&">
+</head>
+<body>
+  <header>
+    <nav class="navbar-expand">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="https://cdn-icons-png.freepik.com/256/0/747.png?ga=GA1.1.1145081165.1712637112&" alt="Pinepple" width="30" height="30" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Pineapple.es</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="iphone.html">Iphones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Airpods.html">Airpods</a>
+            </li>
+            <li>
+              <a class="nav-link" href="MacBooks.html">Macbooks</a>
+            </li>
+            <li>
+              <a class="nav-link" href="AppleWatch.html">AppleWatch</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+        </a>
+      </div>
+    </nav>
+      <div class="container-icon">
+        <div class="container-cart-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+          </svg>
+          <div class="count-products">
+            <span id="contador-productos">0
+            </span>
+          </div>
+        </div>
+       
+        <div class="container-cart-products hidden-cart">
+          <div class="row-product">
+            <div class="cart-product">
+              <div class="info-cart-product">
+                  <span class="cantidad-producto-carrito">1</span>
+                    <p class="titulo-producto-carrito">Iphone 15 Pro Max</p>
+                    <span class="precio-producto-carrito">$1.699.990</span>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+              </svg> 
+            </div>
+          </div>
+          <div class="cart-total">
+            <h3>Total:</h3>
+            <span class="total-pagar">$1.699.990</span>
+          </div>
+        </div>
+      </div>
+  </header>
+  <div class="container-items">
+    <div class="item">
+      <figure>
+        <img src="data:image/jpeg;base64,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" alt="producto">
+      </figure>
+      <div class="info-product">
+        <h2>Airpods Pro</h2>
+        <p class="price">$$279.990</p>
+        <button class="btn-add-cart">Añadir al carrito</button> 
+      </div>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="data:image/webp;base64,UklGRjwEAABXRUJQVlA4IDAEAADwGgCdASp4AI4APj0Oj0eiEREKiCADxLSAambf8su1THgB1B/1k6zoupfFwcprLqX4u0rv3sBj/JuXmdaqddlpBDEFxF71ksxpz/uwu/hGE3AH2+9dFXoxpQ1FddB3qQ4EjF2kJmyynpjwNYSbrTRWbpTzj07XY7C5zps2ykg25fybeag7cHPXJJqzxqevGTfZzqDmkE7AqwxP27hP7IAucaMCsfEg9J6vraihIHzRjVgEvUdCaBtxSw8z0kjj2vwNr79p/4Ahqx5MlrYuj2gNzKwTPPc6jJMWHnLJiSIkAAD+/YEAHXqApAJ8uiya0lsSVrf1/cKLUY90PXv/bNfKLf5N/J3Ls8MtloP/+NU3X/qb5GJ2t6gebqJSqLt+8QxX6c96ld//IhCHIYeWFMnD6PMmpKOWxCNIvZpKk94L19+5uactvTRZiH/4ohUw+30t/6jrRmxVF3welXKti8a+GfYuygWtSkPpY7ew+MOfEuc/+FV3ef/Mq/oQ3/gZv+SVr1NGWQOBrb8NLQiAsspFPkjDecYywydhWS0L2yMMXZYQ04Ds3jpowg/h4Ezt7VSLyfNVMSWwJi3xMwuA2r/D9ocBrLmOMnJZ4csUzNj6Ua0pQWcsiWh9QFgb8Wl6+U2H4iESEvRDfevxBKIoMHnj5RTTT1MQ8uveVNB0By0e3ucNZ/6nGsv/0hrymv09DM/jz5f/iHLmJY6KFjVFUan3KqsJo21OSe2Ua8Zx92eo5jkPviL5P1YbKmlKjOf17PInL8z3oXy5VnaYxXQs/Tj9kyybUy/OssxqB1DdhEXtYXcmEVlHCo0qSNImCOe2Vf3gKHlPGIxnGaHrbsPtt9LtReiUOhOSZBp/mqBRbt0OCEN5x15zzVB9zIGiEQ3pf9sOg5Fjy3pj56PRC782R5zA/PQISOVzlMsQOWvz60IJJC+lq5LHeNn4LAu4ReY1kyGBPzMeqYlWDWxGA9wqT0XHLfTsEyDDx46rCxEDcFc5MHYirAZ+rf354qH8Xa7wtPz/xuSL4eB2BRZz42Q89cy79vRv9bHjDGzuQgNrFVR1WUIbJKct+S0MJYdZ5qiuggLdq0rTgIH1WlA0DHD87Tf1oNdjFvP4CppwErmO872rnEUD5gaUdVGhh0so5aSkVpmsgZS5e4Pp7KByGHQVjxKeiKQoLKzJkFBNUptmq/NFV5p79qdxwNn0WQUEeyNpk5knGHmMG7Nyy1RxBqgzVtBY4eJw1l4K7QC5Y+sT7XhoysYMKEZKJWnPyP8mB8k5UpnwN6xn7nHlgVZAM4PC8q2wfihHQ1DEOkyaikoyGDFr+t63EkZGb0/mIC0BNs8l0VEqG7g5zts5UeQoZ9N1UCP2e72QJ1dgVwQWN/8KieWiJSuv5eLsRZiJ0mdhFUSfOEvR9U8By3d/jhuP8qjVIAAA" alt="producto">
+      </figure>
+      <div class="info-product">
+        <h2>Airpods 2gen</h2>
+        <p class="price">$129.990</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRlVHtuMZyGYdU2LpPQTvbN1SyHhHaewNqVR1GEGFFLjrWLDhvE23M6JHDO9mGevq_PgsTZBErafTRBMVwILlwaTvMDFW62I4709f92DQe8ArPInfPgpoqbVPcyfSN4Bie9k3OP0w&usqp=CAc" alt="producto">
+      </figure>
+      <div class="info-product">
+        <h2>Airpods 3gen</h2>
+        <p class="price">$179.990</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTdEL_uEqganFvUryPT7NYMHRghgHq5Sd1WjD_2LztxpDQy9vmnC7AielQ4WT__jPiBBxvUvBUFHx6NBobVPj3pinFbILCKnLTjbm9WlDdSM43naUQZ0WchU6XYQ9rUbALvwCMQ6Go&usqp=CAc" alt="producto">
+      </figure>
+      <div class="info-product">
+        <h2>Airpods pro 2gen</h2>
+        <p class="price">$199,990</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+  <script src="index.js"></script>
+</body>
+</html>
